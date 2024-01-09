@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { NewComponent } from './components/new-component/new-component.component';
+import { NewComponent } from './components/new/new.component';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +10,7 @@ import { NewComponent } from './components/new-component/new-component.component
   template: `
   <h1>Curso de Angular</h1>
   <h2>Components</h2>
-  <app-new-component />
+  <app-new></app-new>
   `,
 })
 export class AppComponent {
