@@ -8,9 +8,12 @@ import { NewComponent } from './components/new/new.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, NewComponent],
   template: `
-  <h1>Curso de Angular</h1>
-  <h2>Components</h2>
-  <app-new></app-new>
+  <div class="dark">
+    <h1>Curso de Angular</h1>
+    <h2>Components</h2>
+    <app-new></app-new>
+  </div>
+  
   `,
 })
 export class AppComponent {
