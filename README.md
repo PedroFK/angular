@@ -1,21 +1,23 @@
-# Projeto Angular
+# Angular Project
 
-Bem-vindo ao meu repositório de projeto Angular! Atualmente, estou participando de um curso de Angular para aprimorar minhas habilidades de desenvolvimento web.
+<img width="150" alt="angular icon" src="https://github.com/PedroFK/angular/assets/137946119/154d61da-5438-41eb-94a5-2ee8e6bab322">
 
-## Tecnologias Principais
+Welcome! I'm currently taking an Angular course to improve my web development skills.
 
-Neste projeto, estou utilizando as seguintes tecnologias:
+## Core Technologies
 
-- **Angular**: Um framework de desenvolvimento front-end mantido pelo Google.
-- **TypeScript**: Uma linguagem de programação superset do JavaScript que adiciona tipagem estática opcional.
-- **HTML**: Linguagem de marcação para estruturar o conteúdo da aplicação.
-- **CSS**: Folhas de estilo para estilizar e personalizar o layout.
+#### I am using the following technologies in this project:
 
-## Contribuições
+- **Angular**: A front-end development framework maintained by Google.
+- **TypeScript**: A JavaScript superset programming language that adds optional static typing.
+- **HTML**: Markup language to structure application content.
+- **CSS**: Stylesheets to style and customize the layout.
 
-Contribuições são bem-vindas! Se você encontrar bugs, melhorias ou novos recursos que podem ser implementados, fique à vontade para abrir uma nova issue ou enviar um pull request.
+## Contributions
 
-## Contato
-- LinkedIN: (https://www.linkedin.com/in/pedro-kuhn-010b7522b/)
+Contributions are welcome! If you identify any improvements, feel free to help out!
 
-Agradeço por conferir este projeto! 😊
+## Contact
+[LinkedIn](https://www.linkedin.com/in/pedro-kuhn-010b7522b/)
+
+Thanks for checking out this project!! 😊
