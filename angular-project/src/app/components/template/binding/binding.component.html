@@ -39,3 +39,14 @@
 <hr>
 
 <h2> Two-Way Binding </h2>
+<p>Utilizando ngModel, não vou dar exemplo</p>
+<p>Ex: atualizar o name porm meio de um input e as bindings atualizarem de forma automática</p>
+
+<hr>
+
+<h2>Diretivas de Atributos</h2>
+<div [ngClass]="{'background-red': isDisable}">Classes condicionais</div>
+<div [ngClass]="{'background-blue': isEnable}">Classes condicionais</div>
+<div [ngStyle]="{
+    color: age>21 ? 'green' : 'pink'
+}">Estilo Dinâmico</div>
