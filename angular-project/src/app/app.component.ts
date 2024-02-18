@@ -13,15 +13,13 @@ import { ControlFlowComponent } from './components/template/control-flow/control
   standalone: true,
   imports: [CommonModule, RouterOutlet, NewComponent, BindingComponent, TemplateVariablesComponent, ControlFlowComponent],
   template: `
-  <div class="dark">
     <h1>Curso Angular</h1>
   <!-- 
   <app-new></app-new>
   <app-binding></app-binding>
   <app-template-variables />
--->
-<app-control-flow/>
-  </div>
+  <app-control-flow/>
+  -->
   `,
 })
 export class AppComponent {
