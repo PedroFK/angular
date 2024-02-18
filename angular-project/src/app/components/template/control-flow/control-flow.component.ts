@@ -12,6 +12,7 @@ import { Observable, delay, of } from 'rxjs';
 export class ControlFlowComponent {
   public isTrue = true
   public isFalse = false
+  public switchCondition = 'A'
 
   public itens: Array<{name: string}> = [
     { name: 'Pedro'},
