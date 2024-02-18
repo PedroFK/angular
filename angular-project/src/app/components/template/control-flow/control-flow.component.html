@@ -14,6 +14,37 @@
     <p>Pedro aparece</p>
 </ng-container>
 
-<ng-template *ngIf="isFalse">\
+<ng-template *ngIf="isFalse">
     <p>Pedro não aparece</p>
 </ng-template>
+
+
+<h2>IF, FOR</h2>
+
+<!-- Nova Forma -->
+@if(loadingData$ | async; as data) {
+    <ul>
+        @for(item of data; track item) {
+            <li> item - {{item}} </li>
+        }
+    </ul>
+} @else {
+    <p>Carregando...</p>
+}
+
+<!-- Forma Antiga -->
+<ng-container *ngIf="loadingData$ | async as data; else loading">
+<p>{{data}}</p>
+</ng-container>
+<ng-template #loading> <p>Carregando...</p> </ng-template>
+
+<hr>
+
+<h3>Participantes</h3>
+<ul id="list">
+    @for (item of itens; track item.name) {
+        <li> {{item.name }} </li>
+    } @empty {
+        <li> Não contem valores </li>
+    }
+</ul>
